@@ -18,52 +18,56 @@
     <!-- Header -->
     <header>
         <!-- navbar here -->
-        <nav class="nav justify-content-center fixed-top" style="background-color: #cab331;">
-            <span>
-                <h1 class="h2">Archery Pro Shop</h1>
-            </span>
-            <span>
-
-                <div class="container">
-                    <a class="navbar-brand" href="#">
-                        <img src="images/logo.png" alt="Bootstrap" width="46" height="auto">
-                    </a>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Archery Pro Shop
+                    <img src="images/log.JPG" alt="" width="40px" height="auto">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="user-registration.html">Sign up</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.html">Sign in</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Products
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Bows</a></li>
+                                <li><a class="dropdown-item" href="#">Arrows</a></li>
+                                <li><a class="dropdown-item" href="#">Targets</a></li>
+                                <li><a class="dropdown-item" href="#">Quivers</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.html">Check out</a>
+                        </li>
+                    </ul>
                 </div>
-            </span>
-
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home
-                    <img src="images/home.jpeg" alt="image" width="30" height="24">
-
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="user-registration.html">Sign up</a>
-            </li>
-
-            <li class="nav-item">
-                <a class="nav-link" href="#">Sign in</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Products</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#"> Check out
-                    <img src="images/shopping-cart-logo-info-graphics.jpg" alt="image" width="30" height="24">
-                </a>
-            </li>
-
+            </div>
         </nav>
 
     </header>
 
     <!-- Main content of the home page. -->
     <main>
-        <br>
-        <br>
-        <br>
-        <br>
-        <h1 class="text-center h2">Login page</h1>
+
+        <div class="container">
+            <h1 class="text-center h2">Login page</h1>
+        </div>
+
         <form class="border border-primary m-3" style="background-color: aliceblue;">
             <!-- username -->
             <div class="mb-3 m-3">
@@ -80,7 +84,8 @@
             <!-- passwrod confiramtion -->
             <div class="mb-3 m-3">
                 <label for="password-cofirmation" class="form-label">Password confiramtion</label>
-                <input type="password" class="form-control" id="password-cofirmation" minlength="5" required maxlength="20">
+                <input type="password" class="form-control" id="password-cofirmation" minlength="5" required
+                    maxlength="20">
             </div>
 
 
