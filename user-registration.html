@@ -2,131 +2,143 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Home page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home page</title>
 
-    <!-- link necessary to connect bootstrap 5 -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <!-- link necessary to connect bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/user-registration.css">
 </head>
 
 
 <!-- Body - contains semantic elements such as header main and footer-->
 
-<body style="background-image: url('images/background-arrow.jpg');">
-    <!-- Header -->
-    <header>
-        <!-- navbar here -->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="index.html">Archery Pro Shop 
-                <img src="images/log.JPG" alt="" width="40px" height="auto">
+<body>
+  <!-- Header -->
+  <header>
+    <!-- navbar here -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Archery Pro Shop
+          <img src="images/log.JPG" alt="" width="40px" height="auto">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="user-registration.html">Sign up</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Sign in</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Products
               </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="user-registration.html">Sign up</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="login.html">Sign in</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Products
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Bows</a></li>
-                      <li><a class="dropdown-item" href="#">Arrows</a></li>
-                      <li><a class="dropdown-item" href="#">Targets</a></li>
-                      <li><a class="dropdown-item" href="#">Quivers</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="login.html">Check out</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav> 
-
-    </header>
-
-    <!-- Main content of the home page. -->
-    <main>
-
-        <div class="container">
-            <h1 class="text-center h2">Sign up</h1>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Bows</a></li>
+                <li><a class="dropdown-item" href="#">Arrows</a></li>
+                <li><a class="dropdown-item" href="#">Targets</a></li>
+                <li><a class="dropdown-item" href="#">Quivers</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Check out</a>
+            </li>
+          </ul>
         </div>
+      </div>
+    </nav>
 
-        <form class="border border-primary m-3" style="background-color: aliceblue;">
-            <!-- username -->
-            <div class="mb-3 m-3">
-                <label for="username" class="form-label">Username</label>
-                <input type="text" class="form-control" id="username" minlength="5" required maxlength="20">
-            </div>
+  </header>
 
-            <!-- password -->
-            <div class="mb-3 m-3">
-                <label for="password" class="form-label">Password</label>
-                <input type="password" class="form-control" id="password" minlength="6" required maxlength="20">
-            </div>
+  <!-- Main content of the home page. -->
+  <main>
+    <div class="bg-image">
+      <div class="container">
+        <!-- Your content goes here -->
+        <h1 class="text-center h2">Sign up</h1>
+        <form class="border border-primary m-3 w-50 " style="background-color: aliceblue;">
+          <!-- username -->
+          <div class="mb-3 m-3">
+            <label for="username" class="form-label">Username</label>
+            <input type="text" class="form-control" id="username" minlength="5" required maxlength="20">
+          </div>
 
-            <!-- passwrod confiramtion -->
-            <div class="mb-3 m-3">
-                <label for="password-cofirmation" class="form-label">Password confiramtion</label>
-                <input type="password" class="form-control" id="password-cofirmation" minlength="5" required
-                    maxlength="20">
-            </div>
+          <!-- password -->
+          <div class="mb-3 m-3">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" class="form-control" id="password" minlength="6" required maxlength="20">
+          </div>
+
+          <!-- passwrod confiramtion -->
+          <div class="mb-3 m-3">
+            <label for="password-cofirmation" class="form-label">Password confiramtion</label>
+            <input type="password" class="form-control" id="password-cofirmation" minlength="5" required maxlength="20">
+          </div>
 
 
-            <!-- email address -->
-            <div class="mb-3 m-3">
-                <label for="email" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="email" required>
-                <div id="emailnotice" class="form-text">We'll never share your email with anyone else.</div>
-            </div>
+          <!-- email address -->
+          <div class="mb-3 m-3">
+            <label for="email" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="email" required>
+            <div id="emailnotice" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
 
-            <!-- radio buttons -->
-            <p class="m-3">How did you hear about us ?</p>
-            <div class="btn-group m-3" data-bs-toggle="buttons">
-                <label class="btn">
-                    <input type="radio" class="me-2" name="Choice" id="Choice" required> Social media
-                </label>
-                <label class="btn">
-                    <input type="radio" name="Choice" id="Choice"> Friends
-                </label>
-                <label class="btn">
-                    <input type="radio" name="Choice" id="Choice"> From others
-                </label>
-            </div>
+          <!-- radio buttons -->
+          <p class="m-3">How did you hear about us ?</p>
+          <div class="btn-group m-3" data-bs-toggle="buttons">
+            <label class="btn">
+              <input type="radio" class="me-2" name="Choice" id="Choice" required> Social media
+            </label>
+            <label class="btn">
+              <input type="radio" name="Choice" id="Choice"> Friends
+            </label>
+            <label class="btn">
+              <input type="radio" name="Choice" id="Choice"> From others
+            </label>
+          </div>
 
-            <br>
-            <button type="submit" class="btn btn-primary m-3">Submit</button>
+          <br>
+          <button type="submit" class="btn btn-primary m-3">Submit</button>
         </form>
+      </div>
+    </div>
+
+    </div>
 
 
-    </main>
+    </div>
+    </div>
 
 
-    <!-- Footer-->
-    <footer>
-        <!-- place footer here -->
-        <div class="p-3 mb-2 bg-info text-dark">
-            <p>&copy; 2023 Archery Pro Shop. All Rights Reserved.</p>
-        </div>
 
-    </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-        crossorigin="anonymous"></script>
+
+  </main>
+
+
+  <!-- Footer-->
+  <footer>
+    <!-- place footer here -->
+    <div class="p-3 mb-2 text-dark" style="background-color: aquamarine;">
+      <p>&copy; 2023 Archery Pro Shop. All Rights Reserved.</p>
+    </div>
+
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
 
 </body>
 
