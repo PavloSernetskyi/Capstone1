@@ -7,3 +7,27 @@
         width: 100%; /* Set the width you want */
     }
    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    /* TEST not working code. */
+    /* changing size of background image */
+    .bg-imageTEST {
+      background-image: url('/Pluralsight/Projects/Workbook1/Capstone1/images/background-arrow.jpg') ;/* Add your image URL here */ 
+  
+     background-size: cover; /* This will make sure your image is covered, respecting the aspect ratio */
+        background-position: center; /* This will center the image */
+        height: 200px; /* Set the height you want */
+        width: 50%; /* Set the width you want */
+    }
