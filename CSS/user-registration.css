@@ -4,7 +4,7 @@
   
      background-size: cover; /* This will make sure your image is covered, respecting the aspect ratio */
         background-position: center; /* This will center the image */
-        height: 100vw; /* Set the height you want */
+        height: 100%; /* Set the height you want */
         width: 100%; /* Set the width you want */
     }
    
