@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Home page</title>
-
+    <title>Checkout</title>
+    <link rel="icon" href="/Pluralsight/Projects/Workbook1/Capstone1/images/logo.png">
     <!-- link necessary to connect bootstrap 5 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
@@ -20,48 +20,40 @@
     <header>
         <!-- navbar here -->
 
-        <nav class="navbar navbar-expand-lg" style="background-color: #ffffff;">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html"><span class="h3">Archery Pro Shop</span>
-                    <img src="images/log.JPG" alt="" width="40px" height="auto">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav lead">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html"><span
-                                    class="h4">Home</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="user-registration.html"><span class="h4">Sign up</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="login.html"><span class="h4">Sign in</span></a>
-                        </li>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="products.html"><span class="h4">Products</span></a>
-                        </li>
-                        <!-- <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="products.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Products
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Bows</a></li>
-                  <li><a class="dropdown-item" href="#">Arrows</a></li>
-                  <li><a class="dropdown-item" href="#">Targets</a></li>
-                  <li><a class="dropdown-item" href="#">Quivers</a></li>
+        <nav class="navbar navbar-expand-lg"
+            style="background-image: url(/Pluralsight/Projects/Workbook1/Capstone1/images/main-page/targets.jpg);">
+            <a class="navbar-brand" href="index.html"><span class="h3">Archery Pro Shop</span>
+                <img src="images/log.JPG" alt="" width="40px" height="auto">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav lead">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html"><span
+                                class="h4">Home</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="user-registration.html"><span class="h4">Sign up</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html"><span class="h4">Sign in</span></a>
+                    </li>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="products.html"><span class="h4">Products</span></a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="checkout.html"><span class="h4">Check out</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact-us.html"><span class="h4">Contact Us</span></a>
+                      </li>
                 </ul>
-              </li> -->
-                        <li class="nav-item">
-                            <a class="nav-link" href="checkout.html"><span class="h4">Check out</span></a>
-                        </li>
-                    </ul>
-                </div>
+            </div>
             </div>
         </nav>
 
@@ -73,7 +65,7 @@
             <div class="container">
                 <h1 class="text-center h2">Checkout </h1>
 
-                <form action="success.html" method="get" class="border border-primary m-3"
+                <form action="success.html" method="get" class="border border-primary mb"
                     style="background-color: aliceblue;">
                     <div class="row">
                         <div class="col">
@@ -81,26 +73,26 @@
                             <!-- username -->
                             <div class="mb-3 m-3">
                                 <label for="firstname" class="form-label">First name</label>
-                                <input type="text" class="form-control" id="firstname" minlength="5" required
+                                <input type="text" class="form-control" id="firstname" minlength="5" required placeholder="First name"
                                     maxlength="20">
                             </div>
                             <!-- username -->
                             <div class="mb-3 m-3">
                                 <label for="lastname" class="form-label">Last name</label>
-                                <input type="text" class="form-control" id="lastname" minlength="5" required
+                                <input type="text" class="form-control" id="lastname" minlength="5" required placeholder="Last name"
                                     maxlength="20">
                             </div>
                             <!-- username -->
                             <div class="mb-3 m-3">
                                 <label for="username" class="form-label">Username</label>
-                                <input type="text" class="form-control" id="username" minlength="5" required
+                                <input type="text" class="form-control" id="username" minlength="5" required placeholder="Username"
                                     maxlength="20">
                             </div>
 
                             <!-- email address -->
                             <div class="mb-3 m-3">
                                 <label for="email" class="form-label">Email address</label>
-                                <input type="email" class="form-control" id="email" required>
+                                <input type="email" class="form-control" id="email" required placeholder="example@email">
                                 <div id="emailnotice" class="form-text">We'll never share your email with anyone else.
                                 </div>
                             </div>
@@ -116,7 +108,7 @@
                             <div class="mb-3 m-3">
                                 <label for="firstname" class="form-label">City</label>
                                 <input type="text" class="form-control" id="firstname" minlength="2" required
-                                    maxlength="20" placeholder="Your city">
+                                    maxlength="20" placeholder="Your City">
                             </div>
 
                             <!-- address 2-->
@@ -214,7 +206,8 @@
     <!-- Footer-->
     <footer>
         <!-- place footer here -->
-        <div class="p-3 mb-2 bg-success text-dark">
+        <div class="p-3 bg-success text-dark"
+            style="background-image: url(/Pluralsight/Projects/Workbook1/Capstone1/images/main-page/targets.jpg);">
             <p>&copy; 2023 Archery Pro Shop. All Rights Reserved.</p>
         </div>
 
