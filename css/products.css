@@ -2,7 +2,7 @@
 /* applied in products and checkout pages. */
 
 .background-img-products {
-    background-image: url('/Pluralsight/Projects/Workbook1/Capstone1/images/background-arrow.jpg') ;/* Add your image URL here */ 
+    background-image: url('/images/background-arrow.jpg') ;/* Add your image URL here */ 
 
  background-size: cover; /* This will make sure your image is covered, respecting the aspect ratio */
     background-position: center; /* This will center the image */
