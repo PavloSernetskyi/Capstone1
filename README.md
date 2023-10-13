@@ -11,6 +11,7 @@ products.html is the page that dosplays all equipment.
 
 checkout.html contains info, payment methods and item that have been added to the cart.
 
-contact-us page was made using https://formsubmit.co/ which allows to fill out form and send data to chosen email address.
+
+One interesting piece is located in contact-us page. This page was made using https://formsubmit.co/ which allows to fill out form and send data to chosen email address.
 
 
