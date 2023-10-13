@@ -22,5 +22,5 @@ An intriguing piece of the project is located in the `contact-us` page. This pag
 
 ## Sample Screenshot
 Here is a sample image screenshot of the website:
-![Sample Screenshot](https://placehold.co/600x400)
+
 ![main](https://github.com/PavloSernetskyi/Capstone1/assets/74708976/5f40df6b-804b-4f0d-8e99-2c2ce1635547)
