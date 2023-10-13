@@ -1,17 +1,25 @@
-# Capstone1
- Capstone project: Building E-commerce Website using Git, HTML, CSS and Bootstrap
+# Capstone1: Archery Pro Shop Project
 
-Archery Pro Shop project is a website that sells archery equipment. Majority of the componets were implemented using Bootstrap 5.
+## Introduction
+The **Archery Pro Shop** project focuses on building an e-commerce website that sells archery equipment. This project incorporates technologies like Git, HTML, CSS, and particularly, Bootstrap 5 to build a majority of the components.
 
-index.html 
+## Page Descriptions
 
-user-registration.html and login.html pages allows users to register and sign in to the website.
+### 1. index.html 
+Home page of the website.
 
-products.html is the page that dosplays all equipment.
+### 2. user-registration.html & login.html 
+These pages manage the user experience pertaining to account creation and user authentication, allowing users to register and sign into the website.
 
-checkout.html contains info, payment methods and item that have been added to the cart.
+### 3. products.html 
+A dedicated page that displays all available archery equipment for purchase.
 
+### 4. checkout.html 
+This page presents all the necessary information and options related to the checkout process including payment methods and items added to the cart.
 
-One interesting piece is located in contact-us page. This page was made using https://formsubmit.co/ which allows to fill out form and send data to chosen email address.
+## Special Feature: Contact Us Page
+An intriguing piece of the project is located in the `contact-us` page. This page is crafted using [FormSubmit](https://formsubmit.co/), which enables users to fill out a form and seamlessly send data to a chosen email address.
 
-
+## Sample Screenshot
+Here is a sample image screenshot of the website:
+![Sample Screenshot](https://placehold.co/600x400)
