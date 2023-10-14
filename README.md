@@ -1,4 +1,4 @@
-# 🚀Capstone 1: Archery Pro Shop Project
+# Capstone 1: Archery Pro Shop Project
 
 ## Built With
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
@@ -25,7 +25,7 @@ This page presents all the necessary information and options related to the chec
 ## Special Feature: Contact Us Page
 An intriguing piece of the project is located in the `contact-us` page. This page is crafted using [FormSubmit](https://formsubmit.co/), which enables users to fill out a form and seamlessly send data to get in touch with business owners or developers of the website.
 
-## Deployed Link
+## 🚀 Deployed Link
 * [Visit Live Site](https://archerywebsite.pavlosernetskyi.repl.co)
 
 ## Authors
