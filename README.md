@@ -23,7 +23,7 @@ A dedicated page that displays all available archery equipment for purchase.
 This page presents all the necessary information and options related to the checkout process including payment methods and items added to the cart.
 
 ## Special Feature: Contact Us Page
-An intriguing piece of the project is located in the `contact-us` page. This page is crafted using [FormSubmit](https://formsubmit.co/), which enables users to fill out a form and seamlessly send data to a chosen email address.
+An intriguing piece of the project is located in the `contact-us` page. This page is crafted using [FormSubmit](https://formsubmit.co/), which enables users to fill out a form and seamlessly send data to get in touch with business owners or developers of the website.
 
 ## Deployed Link
 * [Visit Live Site](https://archerywebsite.pavlosernetskyi.repl.co)
