@@ -1,5 +1,10 @@
 # Capstone1: Archery Pro Shop Project
 
+## Built With
+* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+* [Bootstrap 5](https://getbootstrap.com/)
+
 ## Introduction
 The **Archery Pro Shop** project focuses on building an e-commerce website that sells archery equipment. This project incorporates technologies like Git, HTML, CSS, and particularly, Bootstrap 5 to build a majority of the components.
 
