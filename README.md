@@ -21,6 +21,10 @@ This page presents all the necessary information and options related to the chec
 An intriguing piece of the project is located in the `contact-us` page. This page is crafted using [FormSubmit](https://formsubmit.co/), which enables users to fill out a form and seamlessly send data to a chosen email address.
 
 ## Sample Screenshot
-Here is a sample image screenshot of the website:
+Here is a sample image screenshots of the website:
 
-![main](https://github.com/PavloSernetskyi/Capstone1/assets/74708976/5f40df6b-804b-4f0d-8e99-2c2ce1635547)
+![home-page](https://github.com/PavloSernetskyi/Capstone1/assets/74708976/b657ced2-e505-4bbb-82c9-f5ae1cfcf2d2)
+![sign-up-page](https://github.com/PavloSernetskyi/Capstone1/assets/74708976/0a2fc703-ea12-4691-a218-3590af2af2f9)
+![products-page](https://github.com/PavloSernetskyi/Capstone1/assets/74708976/0b57fbd8-5009-4697-9f95-c1437706d472)
+![checkout-page](https://github.com/PavloSernetskyi/Capstone1/assets/74708976/c5159ab3-c014-4f39-8191-127a2890ef97)
+![contact-us-page](https://github.com/PavloSernetskyi/Capstone1/assets/74708976/eb5dc0b2-df79-446e-8c02-9db0dc845e2f)
