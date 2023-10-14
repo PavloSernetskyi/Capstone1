@@ -33,3 +33,9 @@ Here is a sample image screenshots of the website:
 ![products-page](https://github.com/PavloSernetskyi/Capstone1/assets/74708976/0b57fbd8-5009-4697-9f95-c1437706d472)
 ![checkout-page](https://github.com/PavloSernetskyi/Capstone1/assets/74708976/c5159ab3-c014-4f39-8191-127a2890ef97)
 ![contact-us-page](https://github.com/PavloSernetskyi/Capstone1/assets/74708976/eb5dc0b2-df79-446e-8c02-9db0dc845e2f)
+
+## Authors
+
+* **Pavlo Sernetskyi** 
+- [Link to Github](https://github.com/PavloSernetskyi)
+- [Link to LinkedIn](https://www.linkedin.com/in/pavlo-sernetskyi)
