@@ -8,7 +8,7 @@ The **Archery Pro Shop** project focuses on building an e-commerce website that 
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 * [Bootstrap 5](https://getbootstrap.com/)
 
-## Page Descriptions
+## Page Descriptions and Sample Screenshots
 
 ### 1. index.html 
 Here is the sample image of the home page:
@@ -37,16 +37,10 @@ An intriguing piece of the project is located in the `contact-us` page. This pag
 
 ## Authors
 
-* **Pavlo Sernetskyi** 
+ **Pavlo Sernetskyi** 
 - [Link to Github](https://github.com/PavloSernetskyi)
 - [Link to LinkedIn](https://www.linkedin.com/in/pavlo-sernetskyi)
 
-## Sample Screenshot
-Here is a sample image screenshots of the website:
 
-![home-page](https://github.com/PavloSernetskyi/Capstone1/assets/74708976/b657ced2-e505-4bbb-82c9-f5ae1cfcf2d2)
-![sign-up-page](https://github.com/PavloSernetskyi/Capstone1/assets/74708976/0a2fc703-ea12-4691-a218-3590af2af2f9)
-![products-page](https://github.com/PavloSernetskyi/Capstone1/assets/74708976/0b57fbd8-5009-4697-9f95-c1437706d472)
-![checkout-page](https://github.com/PavloSernetskyi/Capstone1/assets/74708976/c5159ab3-c014-4f39-8191-127a2890ef97)
-![contact-us-page](https://github.com/PavloSernetskyi/Capstone1/assets/74708976/eb5dc0b2-df79-446e-8c02-9db0dc845e2f)
+
 
