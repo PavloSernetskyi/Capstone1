@@ -11,11 +11,13 @@ The **Archery Pro Shop** project focuses on building an e-commerce website that 
 ## Page Descriptions
 
 ### 1. index.html 
-Home page of the website.
+Here is the sample image of the home page:
+![home-page](https://github.com/PavloSernetskyi/Capstone1/assets/74708976/b657ced2-e505-4bbb-82c9-f5ae1cfcf2d2)
 
 ### 2. user-registration.html & login.html 
 These pages manage the user experience pertaining to account creation and user authentication, allowing users to register and sign into the website.
-
+Here is the sample image of the sign up page:
+![sign-up-page](https://github.com/PavloSernetskyi/Capstone1/assets/74708976/0a2fc703-ea12-4691-a218-3590af2af2f9)
 ### 3. products.html 
 A dedicated page that displays all available archery equipment for purchase.
 
