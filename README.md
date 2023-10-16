@@ -1,4 +1,4 @@
-# Capstone 1: Archery Pro Shop Project
+# Capstone 1 Project: Archery Pro Shop 
 
 ## Built With
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
